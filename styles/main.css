@@ -1,0 +1,19 @@
+.list {
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.shop {
+  border: 1px dotted crimson;
+  padding: 1em;
+  margin: 0.5em;
+  text-align: center;
+  flex-basis: 16%;  /* Make each child element the same width */
+  justify-content: flex-start;
+  align-items:flex-start;
+  
+  
+}
